@@ -562,7 +562,7 @@ namespace RubikSolver {
             SolveIt si = new SolveIt(Cube.CubeColor);   ///生成解决方案
             solve = si.answer;                      ///赋值解决方案
 
-            //index = solve.Length;                   ///操作指针移动到最后，
+            index = solve.Length;                   ///操作指针移动到最后，
             debug.Text += si.debug;
 
             debug.Text += "answer = " + solve;
